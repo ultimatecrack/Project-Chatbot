@@ -1,0 +1,9 @@
+1. Run actions.py to serve custom actions --> rasa run actions
+2. Run rasa shell to check the output on shell --> rasa shell
+3. Run rasa for production api --> rasa -m models --port 5002 --endpoints endpoints.yml --credentials credentials.yml
+4. Run connecter.py to start the api --> python connecter.py
+5. Run probability based rasa shell --> rasa run nlu or rasa shell nlu.yml
+6. Run interactive rasa --> rasa interactive
+7. Train rasa --> rasa train
+
+Note: Before running the project, install rasa and import the mysql table
